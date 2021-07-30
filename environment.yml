@@ -15,8 +15,12 @@ dependencies:
   - python=3.8
   - pytorch
   - pysoundfile
+  - pandas
+  - tensorflow<2.0
+  - jupyter
+  - jupyterlab
   - pip:
-    - tensorflow
+    - environment-kernels
     - tensorboardX==1.1
     - nltk==3.4.5
     - jamo==0.4.1
