@@ -12,11 +12,15 @@ dependencies:
   - Unidecode#==1.0.22
   - pillow
   - music21
-  - python=3.8
+  - python=3.6
   - pytorch
   - pysoundfile
+  - pandas
+  - tensorflow<2.0
+  - jupyter
+  - jupyterlab
   - pip:
-    - tensorflow
+    - environment-kernels
     - tensorboardX==1.1
     - nltk==3.4.5
     - jamo==0.4.1
